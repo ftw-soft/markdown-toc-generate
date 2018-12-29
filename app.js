@@ -115,7 +115,7 @@
 
 		return text
 			.toLowerCase()
-			.replace(/[^a-z0-9-_ ]/g,'')
+			.replace(/[^a-z0-9а-я-_ ]/g,'')
 			.replace(/ /g,'-');
 	}
 
